@@ -41,6 +41,9 @@
 - Sentiment Tagging with Partial Labels using Modular Architectures (ACL 2019). [Paper]()
 
 - DOER: Dual Cross-Shared RNN for Aspect Term-Polarity Co-Extraction (ACL 2019). [Paper]()
+   - the joint approach is more feasible than the collapsed approach when integrating with neural networks because the combined tags
+of the latter may easily make the learned representation confused.
+   - The proposed dual cross-shared RNN framework (DOER) consists of two RNN-CRF models and a Cross-shared unit (CSU).
 
 - Context-aware Embedding for Targeted Aspect-based Sentiment Analysis (ACL 2019). [Paper](http://arxiv.org/abs/1906.06945)
 
