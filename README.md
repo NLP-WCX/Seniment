@@ -44,6 +44,10 @@
 
 ## Joint Aspect/Target Eatraction and Classification
 
+- A Span-based Joint Model for Opinion Target Extraction and Target Sentiment Classification (IJCAI 2019). [Paper]()
+   - 与token-level tagging的方法不同的是，其枚举所有长度为1~l 的span，然后基于span及其上下文表示分类为:{TPOS, TENG, TNEU, O}。
+   - 有意思的一点是，并不处理预测冲突的情况。
+
 - A Unified Model for Opinion Target Extraction and Target Sentiment Prediction (AAAI 2019). [Paper](https://arxiv.org/abs/1811.05082) 
 
 
